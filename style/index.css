@@ -61,7 +61,7 @@ html, body {
 }
 
 h1, h2 {
-    font-size: 4rem;
+    font-size: 8rem;
     margin-bottom: 0.9375em;
 }
 
@@ -76,16 +76,17 @@ p {
 	padding: 1.25em 5%;
 	margin-bottom: auto;
 	background: teal;
+	text-align: center;
 }
 
 .header nav {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: 0.625em 2%;
 }  
 
-.header nav button {
+.header nav a {
     color: black;
 	text-decoration: black;
 	background-color: violet;
